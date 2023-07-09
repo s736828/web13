@@ -128,7 +128,7 @@ class DB
 
         return $this->pdo->query($sql)->fetchColumn();
     }
-
+    // a2s就是 array to string
     protected function a2s($array)
     {
         foreach ($array as $key => $value) {
